@@ -1,0 +1,23 @@
+﻿<Window
+    x:Class="DashStack_Dashboard.Windows.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:DashStack_Dashboard"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="mouse"
+    Title="MainWindow"
+    Width="1280"
+    Height="860"
+    AllowsTransparency="True"
+    Background="Transparent"
+    MouseLeftButtonDown="mouse_MouseLeftButtonDown"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+
+
+    <Border Style="{StaticResource WindowBorder}">
+        <Frame x:Name="Window" NavigationUIVisibility="Hidden" />
+    </Border>
+</Window>

@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>DashStack_Dashboard</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\DropDownIcon.png" />
+    <None Remove="Assets\Flags\UnitedKindom.jpg" />
+    <None Remove="Assets\ProfileAvatar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpVectors.Wpf" Version="1.8.4.2" />
+    <PackageReference Include="Svg.Skia" Version="2.0.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Flags\French.png" />
+    <Resource Include="Assets\Flags\Spanish.png" />
+    <Resource Include="Assets\Flags\UnitedKindom.jpg" />
+    <Resource Include="Assets\Icons\SettingsIcon.svg" />
+    <Resource Include="Assets\Icons\ProductStockIcon.svg" />
+    <Resource Include="Assets\Icons\OrderListIcon.svg" />
+    <Resource Include="Assets\Icons\InboxIcon.svg" />
+    <Resource Include="Assets\Icons\FavoritesIcon.svg" />
+    <Resource Include="Assets\Icons\ProductsIcon.svg" />
+    <Resource Include="Assets\Icons\DashboardIcon.svg" />
+    <Resource Include="Assets\Icons\TableIcon.svg" />
+    <Resource Include="Assets\Icons\TeamIcon.svg" />
+    <Resource Include="Assets\Icons\ElementsIcon.svg" />
+    <Resource Include="Assets\Icons\InvoiceIcon.svg" />
+    <Resource Include="Assets\Icons\ContactIcon.svg" />
+    <Resource Include="Assets\Icons\TodoIcon.svg" />
+    <Resource Include="Assets\Icons\CalenderIcon.svg" />
+    <Resource Include="Assets\Icons\PricingIcon.svg" />
+    <Resource Include="Assets\Icons\LogoutIcon.svg" />
+    <Resource Include="Assets\ProfileAvatar.png" />
+  </ItemGroup>
+
+</Project>
